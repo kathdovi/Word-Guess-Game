@@ -27,6 +27,7 @@ div {
 
 .box1 {
     background-color: #DE282E;
+    padding-top: 10px;
 }
 
 .box2 {
@@ -52,7 +53,6 @@ body {
 
 .col-lg-2 {
     color: white;
-    margin-bottom: 10px;
 }
 
 .win {
@@ -63,4 +63,8 @@ body {
     color: #222;
 }
 
+.current-phrase-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
