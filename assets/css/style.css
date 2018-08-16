@@ -33,6 +33,7 @@ div {
 
 .box3 {
     background-color: whitesmoke;
+    font-size: 20px;
 }
 
 body {
@@ -46,3 +47,13 @@ body {
 .current-phrase {
     font-size: 30px;
 }
+
+.col-lg-2 {
+    color: white;
+}
+
+.win {
+    size: 25px;
+}
+
+
