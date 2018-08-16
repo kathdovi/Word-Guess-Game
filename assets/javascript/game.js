@@ -1,4 +1,4 @@
-let possibilities = ["Breakfast*at*Tiffanys", "Up", "Forrest*Gump", "Pulp*Fiction"];
+let possibilities = ["Breakfast*at*Tiffanys", "Up", "Forrest*Gump", "Pulp*Fiction", "The*Truman*Show", "Rent", "Casablanca", "The*Godfather", "The*Matrix", "The*Wizard*Of*Oz", "Goodfellas", "Back*To*The*Future", "A*Clockwork*Orange", "Psycho"];
 let wins = 0;
 
 // starting variables
@@ -15,7 +15,7 @@ document.querySelector(".letters-left").innerHTML = lettersAvailable.join(" ");
 document.querySelector(".win-num").innerHTML = wins;
 
 function reset() {
-    guessesLeft = 10;
+    guessesLeft = 7;
     lettersAlreadyGuessed = [];
     lettersAvailable = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
     currentWord = possibilities[Math.floor(Math.random() * possibilities.length)].toUpperCase();
@@ -84,7 +84,7 @@ document.addEventListener('keyup', function (e) {
         wins++;
         document.querySelector(".win").innerHTML = "You win!";
         document.querySelector(".win-num").innerHTML = wins;
-        
+
     }
 
 
