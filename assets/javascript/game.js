@@ -2,7 +2,7 @@ let possibilities = ["Breakfast*at*Tiffanys", "Up", "Forrest*Gump", "Pulp*Fictio
 let wins = 0;
 
 // starting variables
-let guessesLeft = 10;
+let guessesLeft = 7;
 let lettersAlreadyGuessed = [];
 let lettersAvailable = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 let currentWord = possibilities[Math.floor(Math.random() * possibilities.length)].toUpperCase();

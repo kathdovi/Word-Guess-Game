@@ -1,10 +1,21 @@
 h1 {
+    margin-top: 25px;
     text-align: center;
     color: white;
+    font-family: 'Limelight', cursive;
 }
 
 div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .container {
@@ -12,7 +23,7 @@ div {
 }
 
 .box1 {
-    background-color: pink;
+    background-color: #DE282E;
 }
 
 .box2 {
@@ -25,5 +36,12 @@ div {
 
 body {
     background-image: url("../images/spiration\ dark.png");
-    margin: 0px;
+}
+
+.container {
+    height: 50%;
+}
+
+.current-phrase {
+    font-size: 30px;
 }
