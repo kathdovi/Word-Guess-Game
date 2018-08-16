@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.box1 {
+    background-color: pink;
+}
+
+.box2 {
+    background-color: aliceblue;
+}
+
+.box3 {
+    background-color: whitesmoke;
+}
+
+body {
+    background-image: url("../images/spiration\ dark.png");
+    margin: 0px;
+}
