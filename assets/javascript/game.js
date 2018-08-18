@@ -1,6 +1,21 @@
-let possibilities = ["Breakfast*at*Tiffanys", "Up", "Forrest*Gump", "Pulp*Fiction", "The*Truman*Show", "Rent", "Casablanca", "The*Godfather", "The*Matrix", 
-    "The*Wizard*Of*Oz", "Goodfellas", "Back*To*The*Future", "A*Clockwork*Orange", "Psycho", "Clue", "Star*Trek", "Finding*Nemo", "Scarface", "Vertigo", 
-    "Double*Identity", "The*Shining", "Rear*Window", "Citizen*Kane", "The*Usual*Suspects", "Schindlers*List", "Star*Wars", "The*Silence*Of*The*Lambs", "Jaws"];
+var fileName = "https://kathdovi.github.io/Word-Guess-Game/assets/HangmanMovies.txt";
+var txtFile;
+if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+    txtFile = new XMLHttpRequest();
+}
+else {// code for IE6, IE5
+    txtFile = new ActiveXObject("Microsoft.XMLHTTP");
+}
+txtFile.open("GET", fileName, false);
+txtFile.send();
+var txtDoc = txtFile.responseText;
+var possibilities = txtDoc.split("\n"); // values in lines[0], lines[1]...
+
+console.log(possibilities);
+
+// let possibilities = ["Breakfast*at*Tiffanys", "Up", "Forrest*Gump", "Pulp*Fiction", "The*Truman*Show", "Rent", "Casablanca", "The*Godfather", "The*Matrix",
+//     "The*Wizard*Of*Oz", "Goodfellas", "Back*To*The*Future", "A*Clockwork*Orange", "Psycho", "Clue", "Star*Trek", "Finding*Nemo", "Scarface", "Vertigo",
+//     "Double*Identity", "The*Shining", "Rear*Window", "Citizen*Kane", "The*Usual*Suspects", "Schindlers*List", "Star*Wars", "The*Silence*Of*The*Lambs", "Jaws"];
 let wins = 0;
 
 // Call reset to display starting values & start first game

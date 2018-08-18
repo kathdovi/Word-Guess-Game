@@ -49,6 +49,7 @@ body {
 
 .current-phrase {
     font-size: 30px;
+    line-height:45px;
 }
 
 .col-lg-2 {
@@ -67,4 +68,5 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 
