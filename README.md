@@ -10,9 +10,14 @@ Game accessible [here](https://kathdovi.github.io/Word-Guess-Game/).
 
 On page load, the game chooses and encodes a randomly selected word from the text file of movies. The user can start to play the game by pressing keys. If the user guesses a correct letter, the number of guesses stays static and the guessed letter appears in the encoded word. If the user guesses an incorrect letter, the number of guesses goes down. If the user finishes the word, they are congratulated, and can press any key to generate another word to guess. If the number of guesses run out, the answer is revealed and the user can press any key to generate another word to guess. The game goes on indefinitely until the user decides to close the web app.
 
+## Demo
+![](https://github.com/kathdovi/Word-Guess-Game/blob/master/HollywoodHangman.gif)
+
 ## Built With
 
 * [Bootstrap](http://getbootstrap.com/) - Framework used
+* [Javascript](https://www.javascript.com/) 
+* HTML5
 
 ## Author
 
